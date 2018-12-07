@@ -242,7 +242,7 @@ static int do_http_request(struct tunnel *tunnel,
 	int ret;
 	const char *template = ("%s %s HTTP/1.1\r\n"
 	                        "Host: %s:%d\r\n"
-	                        "User-Agent: Mozilla/5.0 SV1\r\n"
+	                        "User-Agent: Mozilla/5.0\r\n"
 	                        "Accept: text/plain\r\n"
 	                        "Accept-Encoding: identity\r\n"
 	                        "Content-Type: application/x-www-form-urlencoded\r\n"
